@@ -357,7 +357,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -461,7 +461,7 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.44920138, y: 0.5145007}
+      pivot: {x: 0.5, y: 0.295}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -482,7 +482,7 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.44073486, y: 0.4969406}
+      pivot: {x: 0.5, y: 0.295}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -503,7 +503,7 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.42380196, y: 0.48816058}
+      pivot: {x: 0.5, y: 0.295}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -524,7 +524,7 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.38993618, y: 0.47060055}
+      pivot: {x: 0.5, y: 0.295}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -545,7 +545,7 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.6354632, y: 0.42670044}
+      pivot: {x: 0.5, y: 0.295}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -566,7 +566,7 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.64393014, y: 0.42670044}
+      pivot: {x: 0.5, y: 0.295}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -587,7 +587,7 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.6354637, y: 0.41792044}
+      pivot: {x: 0.5, y: 0.295}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -608,7 +608,7 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.6439296, y: 0.41792044}
+      pivot: {x: 0.5, y: 0.295}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -629,7 +629,7 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.6354632, y: 0.40036038}
+      pivot: {x: 0.5, y: 0.295}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -650,7 +650,7 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.6269968, y: 0.37402034}
+      pivot: {x: 0.5, y: 0.295}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -666,12 +666,12 @@ TextureImporter:
       name: sword_10
       rect:
         serializedVersion: 2
-        x: 452
+        x: 448
         y: 864
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.6269967, y: 0.3652403}
+      pivot: {x: 0.5, y: 0.295}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -692,7 +692,7 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.6354632, y: 0.38280034}
+      pivot: {x: 0.5, y: 0.295}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -713,7 +713,7 @@ TextureImporter:
         width: 448
         height: 432
       alignment: 9
-      pivot: {x: 0.42380196, y: 0.33012024}
+      pivot: {x: 0.5, y: 0.295}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
