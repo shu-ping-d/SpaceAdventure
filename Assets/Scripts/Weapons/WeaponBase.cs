@@ -10,8 +10,9 @@ public class WeaponBase : MonoBehaviour
 
 
     protected Animator animator;
+    protected Vector2 direction;
 
-    protected void Awake()
+    protected virtual void Awake()
     {
         animator = GetComponent<Animator>();
         TimeCount = 0;
@@ -20,6 +21,7 @@ public class WeaponBase : MonoBehaviour
     // Update is called once per frame
     protected void Update()
     {
+        DirectToCamera();
         if (TimeCount > 0)
             TimeCount -= Time.deltaTime;
         if(Input.GetKey(KeyCode.Mouse0) && TimeCount <= 0)
@@ -28,6 +30,11 @@ public class WeaponBase : MonoBehaviour
             Attack();
         }
 
+    }
+    public virtual void DirectToCamera()
+    {
+        direction = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized;
+        transform.up = direction;
     }
     public virtual void Attack()
     {

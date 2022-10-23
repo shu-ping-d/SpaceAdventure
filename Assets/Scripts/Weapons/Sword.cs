@@ -29,12 +29,5 @@ public class Sword : WeaponBase
                 Destroy(collider[i].gameObject);
             }
         }
-        
-        
-    }
-    private void OnDrawGizmos()
-    {
-        Gizmos.DrawWireCube(transform.position + HandPos.up.normalized * Distance, new Vector3(Gx, Gy, Gz) );
-        //Gizmos.
     }
 }
