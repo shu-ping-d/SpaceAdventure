@@ -23,6 +23,6 @@ public class Bullet : MonoBehaviour
     }
     public void SetVelocity(Vector2 dir)
     {
-        rb.velocity = dir * moveSpeed * Time.deltaTime;
+        rb.velocity = dir.normalized * moveSpeed * Time.deltaTime;
     }
 }

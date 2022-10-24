@@ -18,7 +18,6 @@ public class WeaponBase : MonoBehaviour
         TimeCount = 0;
     }
 
-    // Update is called once per frame
     protected void Update()
     {
         DirectToCamera();
@@ -29,7 +28,6 @@ public class WeaponBase : MonoBehaviour
             TimeCount = coolDown;
             Attack();
         }
-
     }
     public virtual void DirectToCamera()
     {
@@ -44,4 +42,7 @@ public class WeaponBase : MonoBehaviour
     {
         Debug.Log("WeaponBase  Hit");
     }
+
+    public virtual void Upgrade_0() { }
+    public virtual void Upgrade_1() { }
 }
