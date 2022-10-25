@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 126053841799001461}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.18, y: 0.24, z: 0}
+  m_LocalPosition: {x: -1.25, y: 0.28, z: 0}
   m_LocalScale: {x: 1, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -73,12 +73,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -575309627, guid: 9cfbb362323bfad4eb88e48d04d8a2a7, type: 3}
+  m_Sprite: {fileID: -65198053, guid: 9cfbb362323bfad4eb88e48d04d8a2a7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.73846155, y: 0.43076923}
+  m_Size: {x: 0.75, y: 0.4375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -160,12 +160,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -971358076, guid: 23d536d6083344698e17aa8fc049b99f, type: 3}
+  m_Sprite: {fileID: 294191963, guid: 23d536d6083344698e17aa8fc049b99f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.3, y: 0.52307695}
+  m_Size: {x: 1.3203125, y: 0.53125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -206,7 +206,7 @@ MonoBehaviour:
   coolDown: 1
   enemyLayer:
     serializedVersion: 2
-    m_Bits: 384
+    m_Bits: 256
   BulletPrefab: {fileID: 670894719220912867, guid: 121fb57f2b07fa549a3747cb1fe8f91c, type: 3}
   Muzzle: {fileID: 0}
   bulletAngle: 20
