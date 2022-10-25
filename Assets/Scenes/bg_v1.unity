@@ -671,7 +671,6 @@ GameObject:
   - component: {fileID: 1050716454}
   - component: {fileID: 1050716453}
   - component: {fileID: 1050716458}
-  - component: {fileID: 1050716459}
   - component: {fileID: 1050716457}
   m_Layer: 0
   m_Name: player
@@ -817,19 +816,6 @@ MonoBehaviour:
   maxHP: 1000
   curHP: 1000
   hpBar: {fileID: 1581178654}
---- !u!114 &1050716459
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1050716452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55b1c72aa9cea44fb8dc0e5b63142db1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  exp_bar: {fileID: 0}
 --- !u!1 &1098686443
 GameObject:
   m_ObjectHideFlags: 0
