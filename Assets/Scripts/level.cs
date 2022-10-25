@@ -7,7 +7,7 @@ public class level : MonoBehaviour
 {
     int levels = 1;
     int exp = 0;
-    public Text level_text;
+    
     public expBar exp_bar; 
     int level_up{
         get{
