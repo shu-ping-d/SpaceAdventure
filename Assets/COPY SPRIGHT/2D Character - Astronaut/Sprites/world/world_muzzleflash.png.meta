@@ -39,7 +39,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -135,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: muzzleflash_0
+      name: world_muzzleflash_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 160
-        height: 120
+        x: 48
+        y: 40
+        width: 96
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdf2abe14ab6ea0f0800000000000000
-      internalID: -1103826506024865825
+      spriteID: d6d76e33516a51749928532f43c29f81
+      internalID: -575309627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: muzzleflash_1
+      name: world_muzzleflash_1
       rect:
         serializedVersion: 2
-        x: 160
-        y: 0
-        width: 160
-        height: 120
+        x: 170
+        y: 16
+        width: 134
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,8 +170,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca0a104fa2fdcfa90800000000000000
-      internalID: -7278697522162196308
+      spriteID: 2b89724ec08727d439b845927f2ab6bf
+      internalID: -1599773106
       vertices: []
       indices: 
       edges: []
@@ -187,8 +187,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      muzzleflash_1: -7278697522162196308
-      muzzleflash_0: -1103826506024865825
+      world_muzzleflash_1: -1599773106
+      world_muzzleflash_0: -575309627
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
