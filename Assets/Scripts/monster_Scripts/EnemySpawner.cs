@@ -8,15 +8,15 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField]
     private GameObject flyeyePrefab;
     [SerializeField]
-    private float flyeyeInterval = 3.5f;
+    private float flyeyeInterval = 3f;
     [SerializeField]
     private GameObject goblinPrefab;
     [SerializeField]
-    private float goblinInterval = 3.5f;
+    private float goblinInterval = 3f;
     [SerializeField]
     private GameObject mashroomPrefab;
     [SerializeField]
-    private float mashroomInterval = 3.5f;
+    private float mashroomInterval = 3f;
     void Start()
     {
         StartCoroutine(spawnEnemy(flyeyeInterval,flyeyePrefab));
