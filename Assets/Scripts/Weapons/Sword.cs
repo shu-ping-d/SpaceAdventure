@@ -29,7 +29,7 @@ public class Sword : WeaponBase
         }
     }
     /// <summary>
-    /// ¤É¯Åªø«× ?
+    /// ï¿½É¯Åªï¿½ï¿½ï¿½ ?
     /// </summary>
     public override void Upgrade_0()
     {
@@ -39,7 +39,7 @@ public class Sword : WeaponBase
         Distance = Gy / 2;
     }
     /// <summary>
-    /// ­°§C§N«o
+    /// ï¿½ï¿½ï¿½Cï¿½Nï¿½o
     /// </summary>
     public override void Upgrade_1()
     {

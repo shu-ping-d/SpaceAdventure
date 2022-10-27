@@ -2,16 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 public class playerController : MonoBehaviour{
-    //public float speed = 30f;
-    float speed = 30f;
-    Vector3 moveVector;
-
-    Vector3 defaultScale;
-    //public float forceValue=2f;
+    public float speed = 30f;
+    // float speed = 30f;
+    Vector3 moveVector,defaultScale;
     Rigidbody2D rbody2D;
     Animator anim;
     character chara;
-    //start?awake?
     private void Awake() {
         rbody2D = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -19,7 +15,6 @@ public class playerController : MonoBehaviour{
         moveVector = new Vector3();
         defaultScale = transform.localScale;
     }
-    // Update is called once per frame
     void Update(){
         moveVector.x = Input.GetAxisRaw("Horizontal");
         moveVector.y = Input.GetAxisRaw("Vertical");
@@ -28,7 +23,6 @@ public class playerController : MonoBehaviour{
         anim.SetFloat("vertical",Mathf.Abs(rbody2D.velocity.y));
         if(rbody2D.velocity.x != 0){
             transform.localScale = new Vector3(-moveVector.x * defaultScale.x, defaultScale.y, defaultScale.z);
-            //Debug.Log("x!=0");
         }              
     }
     void OnTriggerEnter2D(Collider2D other){
