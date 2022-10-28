@@ -7,11 +7,9 @@ public class Bullet : MonoBehaviour
     public float lifeTime;
     public float moveSpeed;
     private Rigidbody2D rb;
-    InGameUIController exp;
     // Start is called before the first frame update
     void Awake()
     {
-        exp = GetComponent<InGameUIController>();
         rb = GetComponent<Rigidbody2D>();
         Destroy(gameObject , lifeTime);
     }
@@ -19,7 +17,6 @@ public class Bullet : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            exp.addEXP(100);
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }

@@ -32,12 +32,12 @@ public class Enemy : MonoBehaviour
     {
         if(Collider.CompareTag("weapon"))
         {
-            GameManager.GetComponent<InGameUIController>().addEXP(400);
+            GameManager.GetComponent<InGameUIController>().addEXP(100);
             Destroy(gameObject,0.5f);
         }
         if(Collider.CompareTag("Player"))
         {
-            player.GetComponent<character>().takeDamage(100);
+            player.GetComponent<character>().takeDamage(70);
             Destroy(gameObject,0.5f);
         }
     }

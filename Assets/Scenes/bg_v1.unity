@@ -723,6 +723,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &487555504 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 126053841799001461, guid: 55e670919c4cd524593ccfe9036436a7, type: 3}
+  m_PrefabInstance: {fileID: 1264885093}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &489845720
 GameObject:
   m_ObjectHideFlags: 0
@@ -1084,9 +1089,9 @@ MonoBehaviour:
   flyeyePrefab: {fileID: 1037912729673117847, guid: 6e652cb74eadf154e99b8a5d5b913222, type: 3}
   flyeyeInterval: 1
   goblinPrefab: {fileID: 856123129814405305, guid: 2ea74942a1cc1f74ab923da8fdf443da, type: 3}
-  goblinInterval: 3
+  goblinInterval: 1
   mashroomPrefab: {fileID: 8690399405079352065, guid: 58d18472b8798ec418747f7cd1a3c604, type: 3}
-  mashroomInterval: 10
+  mashroomInterval: 1
 --- !u!1 &852323557
 GameObject:
   m_ObjectHideFlags: 0
@@ -1210,7 +1215,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 861123179}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1236,7 +1241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.07058823, g: 0.8980392, b: 0.107369035, a: 0.5529412}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1394,7 +1399,6 @@ GameObject:
   - component: {fileID: 1050716453}
   - component: {fileID: 1050716458}
   - component: {fileID: 1050716457}
-  - component: {fileID: 1050716460}
   - component: {fileID: 1050716461}
   m_Layer: 0
   m_Name: player
@@ -1543,20 +1547,6 @@ MonoBehaviour:
   maxHP: 1000
   curHP: 1000
   hpBar: {fileID: 1581178654}
---- !u!114 &1050716460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1050716452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 403afac0b05f142428ff41a4f51bc2d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentXP: 0
-  levels: 1
 --- !u!60 &1050716461
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1822,6 +1812,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 570979235}
     m_Modifications:
+    - target: {fileID: 126053841799001461, guid: 55e670919c4cd524593ccfe9036436a7, type: 3}
+      propertyPath: m_TagString
+      value: weapon
+      objectReference: {fileID: 0}
+    - target: {fileID: 126053842621738320, guid: 55e670919c4cd524593ccfe9036436a7, type: 3}
+      propertyPath: Muzzle
+      value: 
+      objectReference: {fileID: 487555504}
     - target: {fileID: 126053842621738321, guid: 55e670919c4cd524593ccfe9036436a7, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2632,7 +2630,6 @@ GameObject:
   - component: {fileID: 1985696154}
   - component: {fileID: 1985696153}
   - component: {fileID: 1985696152}
-  - component: {fileID: 1985696155}
   m_Layer: 5
   m_Name: ExpBar
   m_TagString: Untagged
@@ -2659,7 +2656,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 7, y: 203}
-  m_SizeDelta: {x: 480, y: 19.996}
+  m_SizeDelta: {x: 480, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1985696152
 MonoBehaviour:
@@ -2748,19 +2745,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1985696150}
   m_CullTransparentMesh: 1
---- !u!114 &1985696155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985696150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e33150b594d543b9938084a174afc67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tilePosition: {x: 0, y: 0}
 --- !u!1 &2080490454
 GameObject:
   m_ObjectHideFlags: 0

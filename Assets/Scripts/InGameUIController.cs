@@ -14,6 +14,10 @@ public class InGameUIController : MonoBehaviour
     int currentXP = 0, currentLvl = 1;
     public Text levelText;
     public Scrollbar expBar;
+    void Update() {
+        levelText.text = "Lv " + currentLvl;
+        expBar.size = (float) currentXP / next;
+    }
     // Update is called once per frame
     // void Update()
     // {
@@ -38,7 +42,7 @@ public class InGameUIController : MonoBehaviour
             currentXP -= (currentLvl*1000);
             currentLvl++;
             levelText.text = "Lv " + currentLvl;
-            expBar.size = (float) currentXP / next;
+            //expBar.size = (float) currentXP / next;
         }
     }
 }
