@@ -16,14 +16,14 @@ public class Gun : WeaponBase
         Muzzle.SetActive(false);
     }
     /// <summary>
-    /// ´£¤É¤l¼u¼Æ¶q
+    /// ï¿½ï¿½ï¿½É¤lï¿½uï¿½Æ¶q
     /// </summary>
     public override void Upgrade_0()
     {
         bulletNum++;
     }
     /// <summary>
-    /// ­°§C§N«o
+    /// ï¿½ï¿½ï¿½Cï¿½Nï¿½o
     /// </summary>
     public override void Upgrade_1()
     {

@@ -7,8 +7,6 @@ public class WeaponBase : MonoBehaviour
     protected float TimeCount;
     [SerializeField]
     protected LayerMask enemyLayer;
-
-
     protected Animator animator;
     protected Vector2 direction;
 
@@ -37,6 +35,7 @@ public class WeaponBase : MonoBehaviour
     public virtual void Attack()
     {
         Debug.Log("WeaponBase  Attack");
+
     }
     public virtual void Hit()
     {

@@ -7,11 +7,9 @@ public class terrainTiles : MonoBehaviour{
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("E");
         world_scrolling world = GetComponentInParent<world_scrolling>();
         if (world != null)
         {
-            Debug.Log("D");
             world.add(gameObject,tilePosition);
         }
         else{

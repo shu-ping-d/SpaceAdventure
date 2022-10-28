@@ -16,7 +16,7 @@ public class playerController : MonoBehaviour{
     private void Awake() {
         rbody2D = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        chara = GetComponent<character>();
+        // chara = GetComponent<character>();
         moveVector = new Vector3();
         defaultScale = transform.localScale;
     }
@@ -28,14 +28,15 @@ public class playerController : MonoBehaviour{
         anim.SetFloat("vertical",Mathf.Abs(rbody2D.velocity.y));
         if(rbody2D.velocity.x != 0){
             transform.localScale = new Vector3(-moveVector.x * defaultScale.x, defaultScale.y, defaultScale.z);
-            //Debug.Log("x!=0");
         }
         if (Input.GetKeyDown(KeyCode.Q))
             ChangeWeapon();
     }
     void OnTriggerEnter2D(Collider2D other){
+
         if(other.gameObject.tag == "Enemy"){
-            chara.takeDamage(300);
+            Debug.Log(gameObject);
+            //chara.takeDamage(100);
             Destroy(other.gameObject);
         }
         

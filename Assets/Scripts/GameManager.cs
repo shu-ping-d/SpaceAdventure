@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
         instance = this;
-        Debug.Log(this);
+        // Debug.Log(this);
     }
     void Start()
     {

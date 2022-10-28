@@ -10,11 +10,12 @@ public class Sword : WeaponBase
     public float Distance;
     public float angle;
     private new Collider2D[] collider = new Collider2D[20];
-    
+    public InGameUIController exp;
 
     public override void Attack()
     {
         animator.SetTrigger("Attack");
+        exp = GetComponent<InGameUIController>();
     }
     public override void Hit()
     {

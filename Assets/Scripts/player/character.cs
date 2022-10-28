@@ -17,8 +17,6 @@ public class character : MonoBehaviour
         
         curHP -= damage;
         if(curHP <= 0){
-            Debug.Log("GAME OVER"); 
-            //anim.SetBool("die",true);
             anim.SetTrigger("dead");
         }
             
@@ -26,7 +24,6 @@ public class character : MonoBehaviour
 
     }
     public void PlayerDead(){
-        //Debug.Log("Dead");
         GameManager.GameOver(true);
     }
     public void heal(int amount){
